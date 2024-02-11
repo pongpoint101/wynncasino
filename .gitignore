@@ -1,18 +1,20 @@
-*/config/development
-*/logs/log-*.php
-!*/logs/index.html
-*/cache/*
-!system/cache/*
-!*/cache/index.html
-!*/cache/.htaccess
 
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
-
-#codeigniter 3
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
-/vendor/
+*/.DS_Store
+/frontend/core/constants.php
+/backend/application/cache
+/backend/images
+backend/application/config/database.php
+frontend/core/constants.php
+backend/application/config/database.php
+frontend/core/constants.php
+*.txt
+.txt
+*/*.txt
+*/.txt
+*.log
+.log
+*/*.log
+*/.log
+*.DS_Store
+.DS_Store
+frontend/public/lobby/auto/pg-launch/*
