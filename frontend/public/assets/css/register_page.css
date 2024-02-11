@@ -1,0 +1,144 @@
+.main-section {
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    height: auto;
+    background-color: #000000!important;
+}
+
+.blue-box {
+    width: 95%;
+    max-width: 922px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border: var(--border-main);
+    border-radius: 40px;
+    box-shadow: var(--blue-box-shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(180deg, #ff00001c 0%, #000000 100%);
+}
+
+.btn-outline-info,
+.btn-outline-warning {
+    border: var(--border-main);
+    color: #f1cf73;
+}
+
+.btn-outline-info:hover,
+.btn-outline-warning:hover {
+    border: var(--border-main);
+    background: #f1cf73;
+    color: #fff;
+}
+
+.blue-box>h1 {
+    text-align: center;
+    font: normal normal normal 60px/70px Mitr;
+    letter-spacing: 1px;
+    color: var(--white-text-color);
+    text-shadow: var(--blue-text-shadow-379AFC);
+}
+
+.blue-box>p {
+    width: 90%;
+    max-width: 850px;
+    text-align: center;
+    font: normal normal normal 24px/30px Mitr;
+    letter-spacing: 1px;
+    color: var(--white-text-color);
+    text-shadow: var(--blue-text-shadow-379AFC);
+}
+
+.blue-box>form {
+    width: 90%;
+    max-width: 850px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font: normal normal normal 18px/24px Mitr;
+}
+
+.long-field {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #707070;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+}
+
+.long-field>div {
+    width: 45px;
+    height: 45px;
+    border-right: 1px solid #707070;
+}
+
+.long-field>input {
+    flex-grow: 1;
+    padding-left: 15px;
+}
+
+.short-field {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.short-field>* {
+    width: 46%;
+    min-width: 145px;
+    padding-left: 15px;
+    border: 1px solid #707070;
+    background-color: white;
+    border-radius: 3px;
+}
+
+button[type=submit] {
+    margin-top: 10px;
+    width: 100%;
+    height: 64px;
+    border-radius: 60px;
+    box-shadow: var(--blue-box-shadow);
+    background: var(--blue-btn-bg);
+    font: normal normal normal 30px/30px Mitr;
+    color: var(--white-text-color);
+}
+
+@media (max-width:576px) {
+    .main-section {
+        padding-top: 80px;
+    }
+    .blue-box {
+        padding-top: 16px;
+        border: none;
+        box-shadow: none;
+        background: none;
+    }
+    .blue-box>h1 {
+        font: normal normal normal 32px/35px Mitr;
+    }
+    .blue-box>p {
+        font: normal normal normal 14px/18px Mitr;
+        margin: 0;
+    }
+    .blue-box>form {
+        font: normal normal normal 14px/18px Mitr;
+    }
+    .long-field {
+        height: 42px;
+    }
+    .long-field>div {
+        display: none;
+    }
+    .short-field {
+        height: 42px;
+    }
+    button[type=submit] {
+        height: 40px;
+        font: normal normal normal 16px/24px Mitr;
+    }
+}

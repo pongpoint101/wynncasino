@@ -1,0 +1,129 @@
+.info-section {
+    width: 100%;
+    padding-top: 130px;
+    height: auto;
+    background-color: #000000;
+    padding-bottom: 20px;
+}
+
+.tab {
+    width: 95%;
+    max-width: 1160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.tab button {
+    cursor: pointer;
+    transition: 0.3s;
+    width: 250px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--white-text-color);
+    border-radius: 10px;
+}
+
+.tab button:nth-of-type(1) {
+    background-color: var(--deposite-btn-color);
+}
+
+.tab button:nth-of-type(2) {
+    background-color: var(--withdraw-btn-color);
+}
+
+.tab button h3 {
+    text-align: center;
+    font: normal normal normal 30px/30px Mitr;
+}
+
+.tab button h4 {
+    text-align: center;
+    font: normal normal normal 20px/20px Mitr;
+    margin: 0;
+}
+
+.tab button img {
+    width: 60px;
+    height: 60px;
+}
+
+.member-info {
+    width: 95%;
+    max-width: 1160px;
+    border: var(--border-main);
+    border-radius: 40px;
+    box-shadow: var(--blue-box-shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    min-height: 200px;
+}
+
+.accout-info {
+    width: 100%;
+    padding-top: 5px;
+    border-bottom: var(--border-thin);
+}
+
+.accout-info>h1 {
+    text-align: center;
+    font: normal normal normal 30px/50px Mitr;
+    letter-spacing: 1px;
+    color: var(--table-text-color);
+}
+
+.table-container {
+    width: 100%;
+    border-radius: 0px 0px 40px 40px;
+    padding-top: 10px;
+}
+
+.table {
+    max-width: 1024px;
+    color: var(--table-text-color);
+    text-align: center;
+    /* border-color: var(--table-text-color); */
+}
+
+.table thead {
+    border-bottom: 1px solid var(--table-text-color);
+}
+
+.table th {
+    letter-spacing: 1px;
+    font: normal normal 500 20px/24px Mitr !important;
+}
+
+.table td {
+    font: normal normal normal 16px/24px Mitr;
+}
+
+@media (max-width:576px) {
+    .table th {
+        letter-spacing: 1px;
+        font: normal normal 500 14px/18px Mitr !important;
+    }
+    .table td {
+        font: normal normal normal 14px/18px Mitr;
+    }
+    .tab button {
+        width: 250px;
+        height: 60px;
+    }
+    .tab button h3 {
+        font: normal normal normal 20px/20px Mitr;
+    }
+    .tab button h4 {
+        font: normal normal normal 16px/16px Mitr;
+    }
+    .tab button img {
+        width: 40px;
+        height: 40px;
+    }
+}

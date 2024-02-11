@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1178" height="700" viewBox="0 0 1178 700">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2e2e2e"/>
+      <stop offset="0.744" stop-color="#101d32"/>
+      <stop offset="1" stop-color="#0f0f10"/>
+    </linearGradient>
+    <filter id="Rectangle_11" x="0" y="0" width="1178" height="700" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#049cfc"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="Rectangle_11-2" x="0" y="0" width="1178" height="700" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#fff" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_11)">
+      <g id="Rectangle_11-3" data-name="Rectangle 11" transform="translate(9 6)" stroke="#049cfc" stroke-width="3" fill="url(#linear-gradient)">
+        <rect width="1160" height="682" rx="40" stroke="none"/>
+        <rect x="1.5" y="1.5" width="1157" height="679" rx="38.5" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rectangle_11-4" data-name="Rectangle 11" width="1160" height="682" rx="40" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_11-2)">
+      <rect id="Rectangle_11-5" data-name="Rectangle 11" width="1160" height="682" rx="40" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="Rectangle_11-6" data-name="Rectangle 11" transform="translate(9 6)" fill="none" stroke="#049cfc" stroke-width="3">
+      <rect width="1160" height="682" rx="40" stroke="none"/>
+      <rect x="1.5" y="1.5" width="1157" height="679" rx="38.5" fill="none"/>
+    </g>
+  </g>
+</svg>

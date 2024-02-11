@@ -1,0 +1,292 @@
+﻿html[lang=ms] .navbar-navigation-fns .navbar-nav,
+html[lang=id] .navbar-navigation-fns .navbar-nav {
+  font-size: 14px !important;
+}
+html[lang=ms] .submit-container,
+html[lang=id] .submit-container {
+  width: 152px !important;
+}
+html[lang=ms] .submit-container:after,
+html[lang=id] .submit-container:after {
+  width: 152px !important;
+}
+html[lang=ms] .login-button-container,
+html[lang=id] .login-button-container {
+  width: 127px !important;
+}
+html[lang=ms] .login-button-container:after,
+html[lang=id] .login-button-container:after {
+  width: 127px !important;
+}
+html[lang=ms] .navbar-header-announcement,
+html[lang=id] .navbar-header-announcement {
+  width: 466px !important;
+}
+html[lang=ms] .main .ads-container .ads-item .banner-manual-text,
+html[lang=id] .main .ads-container .ads-item .banner-manual-text {
+  position: absolute;
+  top: 115px;
+  left: 36px;
+  height: 61px;
+}
+html[lang=ms] .main .banner-container #jssor_game_banner img[data-u=image] + img[data-u=caption],
+html[lang=id] .main .banner-container #jssor_game_banner img[data-u=image] + img[data-u=caption] {
+  top: 75px !important;
+  left: 440px !important;
+}
+html[lang=ms] .main .game-container .index-game-select .index-game-box .index-icon-container .index-flag.index-flag-hot .pre-img,
+html[lang=id] .main .game-container .index-game-select .index-game-box .index-icon-container .index-flag.index-flag-hot .pre-img {
+  background-image: url(/Themes/Joker/Images/games/flag-hot_id.png);
+}
+html[lang=ms] .main .game-container .index-game-select .index-game-box .index-icon-container .index-flag.index-flag-new .pre-img,
+html[lang=id] .main .game-container .index-game-select .index-game-box .index-icon-container .index-flag.index-flag-new .pre-img {
+  background-image: url(/Themes/Joker/Images/games/flag-new_id.png);
+}
+html[lang=ms] .manual .third-party .guide .item .download-install .install-guide,
+html[lang=id] .manual .third-party .guide .item .download-install .install-guide {
+  font-size: 15px;
+}
+html[lang=ms] .footer,
+html[lang=id] .footer {
+  min-height: 100px;
+}
+html[lang=ms] .footer .left,
+html[lang=id] .footer .left {
+  width: 670px;
+}
+html[lang=ms] .footer .right,
+html[lang=id] .footer .right {
+  width: 460px;
+}
+html[lang=ms] .footer .right .plugins,
+html[lang=id] .footer .right .plugins {
+  margin-top: 0;
+}
+html[lang=ms] .footer .right .menu > li > a,
+html[lang=id] .footer .right .menu > li > a {
+  font-size: 10px;
+}
+html[lang=th] .submit-container {
+  width: 152px !important;
+}
+html[lang=th] .submit-container:after {
+  width: 152px !important;
+}
+html[lang=th] .main .game-container .index-game-select .index-game-box .index-icon-container .index-flag.index-flag-hot .pre-img {
+  background-image: url(/Themes/Joker/Images/games/flag-hot_th.png);
+}
+html[lang=th] .main .game-container .index-game-select .index-game-box .index-icon-container .index-flag.index-flag-new .pre-img {
+  background-image: url(/Themes/Joker/Images/games/flag-new_th.png);
+}
+html[lang=ko] .support-title:after {
+  background: url(/Themes/Joker/Images/download/bkg_support_ko.png?v=10) no-repeat;
+}
+html[lang=ko] .btn-banner-play {
+  background-image: url('/Themes/Joker/Images/banner/play-now_ko.png');
+}
+html[lang=ko] .main .download-box .inner-box .contact > li a.desktop-download {
+  background-image: url(/Themes/Joker/Images/Manual/btn_download_manual_ko.png?v=10);
+}
+html[lang=ko] .navbar-fns .menu-wrapper .navbar-nav > li {
+  padding: 0px 10px;
+}
+html[lang=ko] .live-casino-container .live-casino-item .item .play-now,
+html[lang=ko] .live-casino-container .live-casino-item .item .coming-soon {
+  background: url(/Themes/Joker/Images/livecasino/btn_playnow_ko.png?v=10) no-repeat;
+}
+html[lang=ko] .live-casino-container .live-casino-item .item .play-now:hover,
+html[lang=ko] .live-casino-container .live-casino-item .item .play-now:active {
+  background: url(/Themes/Joker/Images/livecasino/btn_playnow_hover_ko.png?v=10) no-repeat;
+}
+html[lang=ko] .live-casino-container .live-casino-item .item .coming-soon {
+  cursor: default;
+  background: url(/Themes/Joker/Images/livecasino/btn_coming_ko.png?v=10) no-repeat;
+}
+html[lang=ko] .live-casino-container .live-casino-item .item .coming-soon:hover,
+html[lang=ko] .live-casino-container .live-casino-item .item .coming-soon:active {
+  background: url(/Themes/Joker/Images/livecasino/btn_coming_hover_ko.png?v=10) no-repeat;
+}
+html[lang=ko] .manual .third-party .guide .item .download {
+  background-image: url(/Themes/Joker/Images/Manual/btn_download_manual_ko.png?v=10);
+}
+html[lang=ko] .manual .third-party .guide .item .install-guide {
+  background-image: url(/Themes/Joker/Images/Manual/btn_installguide_manual_ko.png?v=10);
+}
+html[lang=ko] .rank-container .competition-container .top-rank-container .top-1 {
+  background: url(/Themes/Joker/Images/Rank/award_01_ko.png?v=10) no-repeat;
+}
+html[lang=ko] .rank-container .competition-container .top-rank-container .top-2 {
+  background: url(/Themes/Joker/Images/Rank/award_02_ko.png?v=10) no-repeat;
+}
+html[lang=ko] .rank-container .competition-container .top-rank-container .top-3 {
+  background: url(/Themes/Joker/Images/Rank/award_03_ko.png?v=10) no-repeat;
+}
+html[lang=ko] .img-play-now {
+  background-image: url('/Themes/Joker/Images/games/btn_playnow_ko.png');
+}
+html[lang=ko] .img-text-jackpot {
+  width: 395px;
+  height: 57px;
+  background: url('/Themes/Joker/Images/GameJackpot/text_Jacpot_ko.png') no-repeat right;
+  margin-top: 15px;
+}
+html[lang=ko] .main .game-jackpot-container .jackpot {
+  left: 202px;
+}
+html[lang=ko] .img-btn-download {
+  background-image: url('/Themes/Joker/Images/download/btn_download_ko.png');
+}
+html[lang=ko] .jackpot-container .img-jackpot {
+  margin-top: -20px;
+  background-image: url('/Themes/Joker/Images/jackpot/jackpot_ko.png');
+}
+html[lang=ko] .jackpot-container .star.star-1 {
+  top: 30px;
+  left: 258px;
+}
+html[lang=ko] .jackpot-container .star.star-2 {
+  top: -20px;
+  left: 405px;
+}
+html[lang=ko] .jackpot-container .star.star-3 {
+  top: 12px;
+  left: 530px;
+}
+html[lang=ko] .jackpot-container .star.star-4 {
+  top: -28px;
+  left: 590px;
+}
+html[lang=ko] .jackpot-container .star.star-5 {
+  top: 0px;
+  left: 618px;
+}
+html[lang=ko] .jackpot-container .star.star-6 {
+  top: -10px;
+  left: 745px;
+}
+html[lang=ko] .game-jackpot-container .star.star-1 {
+  top: 34px;
+  left: 36px;
+}
+html[lang=ko] .game-jackpot-container .star.star-2 {
+  top: 14px;
+  left: 100px;
+}
+html[lang=ko] .game-jackpot-container .star.star-3 {
+  top: 40px;
+  left: 198px;
+}
+html[lang=ko] .game-jackpot-container .star.star-4 {
+  top: 13px;
+  left: 275px;
+}
+html[lang=ko] .game-jackpot-container .star.star-5 {
+  top: 30px;
+  left: 375px;
+}
+html[lang=ko] .game-jackpot-container .jackpot-light-circle {
+  margin-left: -32px;
+}
+html[lang=ko] .download-box .support-title:after {
+  background: url('/Themes/Joker/Images/download/bkg_support_ko.png?v=10') no-repeat;
+}
+html[lang=zh] .main .game-container .index-game-select .index-game-box .index-icon-container .index-flag.index-flag-new .pre-img {
+  background: url(/Themes/Joker/Images/games/flag-new_zh.png) no-repeat;
+  background-size: 100% 100%;
+}
+html[lang=zh] .main .game-container .index-game-select .index-game-box .index-icon-container .index-flag.index-flag-hot .pre-img {
+  background: url(/Themes/Joker/Images/games/flag-hot_zh.png) no-repeat;
+  background-size: 100% 100%;
+}
+html[lang=zh] .main .btn-banner-play {
+  background-image: url('/Themes/Joker/Images/banner/play-now_zh.png');
+}
+html[lang=zh] .main .download-box .img-btn-download {
+  background-image: url('/Themes/Joker/Images/download/btn_download_zh.png');
+}
+html[lang=zh] .main .download-box .support-title:after {
+  background: url('/Themes/Joker/Images/download/bkg_support_zh.png?v=10') no-repeat;
+}
+html[lang=zh] .main .download-box .inner-box .contact > li .desktop-download {
+  background-image: url(/Themes/Joker/Images/Manual/btn_download_manual_zh.png);
+}
+html[lang=zh] .main .game-jackpot-container {
+  width: 836px;
+}
+html[lang=zh] .main .game-jackpot-container .star.star-1 {
+  top: 34px;
+  left: 96px;
+}
+html[lang=zh] .main .game-jackpot-container .star.star-2 {
+  top: 14px;
+  left: 160px;
+}
+html[lang=zh] .main .game-jackpot-container .star.star-3 {
+  top: 40px;
+  left: 258px;
+}
+html[lang=zh] .main .game-jackpot-container .star.star-4 {
+  top: 13px;
+  left: 325px;
+}
+html[lang=zh] .main .game-jackpot-container .star.star-5 {
+  top: 30px;
+  left: 435px;
+}
+html[lang=zh] .main .game-jackpot-container .center-container {
+  left: 159px;
+}
+html[lang=zh] .main .game-jackpot-container .jackpot {
+  left: 167px;
+}
+html[lang=zh] .main .jackpot-container .img-jackpot {
+  margin-top: -20px;
+  background-image: url('/Themes/Joker/Images/jackpot/jackpot_zh.png');
+}
+html[lang=zh] .main .jackpot-container .star.star-1 {
+  top: 30px;
+  left: 258px;
+}
+html[lang=zh] .main .jackpot-container .star.star-2 {
+  top: -20px;
+  left: 405px;
+}
+html[lang=zh] .main .jackpot-container .star.star-3 {
+  top: 12px;
+  left: 530px;
+}
+html[lang=zh] .main .jackpot-container .star.star-4 {
+  top: -28px;
+  left: 590px;
+}
+html[lang=zh] .main .jackpot-container .star.star-5 {
+  top: 0px;
+  left: 618px;
+}
+html[lang=zh] .main .jackpot-container .star.star-6 {
+  top: -10px;
+  left: 745px;
+}
+html[lang=zh] .main .img-text-jackpot {
+  width: 280px;
+  height: 29px;
+  float: left;
+  background: url('/Themes/Joker/Images/GameJackpot/text_Jacpot_zh.png') no-repeat;
+  margin-top: 28px;
+  margin-right: -40px;
+}
+html[lang=zh] .main .live-casino-container .live-casino-item .item .play-now {
+  font-size: 16px;
+}
+html[lang=zh] .rank-container .competition-container .frame-container .table-container .competition-table tbody tr .detail-award {
+  padding-left: 15px;
+}
+@media (max-width: 1024px) {
+  html[lang=ms] .navbar-navigation-fns .navbar-nav {
+    font-size: 12px !important;
+  }
+  html[lang=ms] .navbar-navigation-fns .navbar-nav li {
+    margin-left: 20px;
+  }
+}
+/*# sourceMappingURL=data:application/json;base64,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 */

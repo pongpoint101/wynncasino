@@ -1,0 +1,83 @@
+﻿/**** Event Christmas ****/
+body.christmas .navbar-fns {
+  position: relative;
+}
+body.christmas .navbar-brand {
+  height: auto;
+  margin-bottom: -5px;
+}
+body.christmas .navbar-brand img {
+  height: 65px;
+}
+/**** Event Western New Year ****/
+body.western-new-year .navbar-fns {
+  background: #020202 url("/Themes/Joker/Images/western-new-year/bg.png?v=12") no-repeat;
+  background-position: center;
+}
+body.western-new-year .navbar-fns > .container {
+  position: relative;
+}
+body.western-new-year .navbar-fns > .container:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -310px;
+  width: 718px;
+  height: 142px;
+  background: url("/Themes/Joker/Images/western-new-year/img-1.png?v=12") no-repeat;
+}
+body.western-new-year .navbar-fns > .container:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: -375px;
+  width: 398px;
+  height: 142px;
+  background: url("/Themes/Joker/Images/western-new-year/img-2.png?v=12") no-repeat;
+}
+body.western-new-year .navbar-fns .navbar-header-feature {
+  position: relative;
+  z-index: 5;
+}
+body.western-new-year .navbar-fns .navbar-navigation-fns {
+  position: relative;
+  z-index: 4;
+}
+body.western-new-year .navbar-fns .background-star {
+  background: url("/Themes/Joker/Images/western-new-year/star.png?v=12") no-repeat;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 65px;
+  left: -35px;
+  z-index: 3;
+}
+body.western-new-year .navbar-fns .background-star.background-star1 {
+  bottom: 25px !important;
+  left: -75px !important;
+}
+body.western-new-year .navbar-fns .background-star.background-star2 {
+  bottom: 60px !important;
+  left: 300px !important;
+}
+body.western-new-year .navbar-fns .background-star.background-star3 {
+  bottom: 42px !important;
+  right: -37px !important;
+  left: auto !important;
+}
+body.western-new-year .navbar-fns .background-star.background-star4 {
+  bottom: 55px !important;
+  right: -170px !important;
+  left: auto !important;
+}
+/**** Event Lunar New Year ****/
+body.new-year .navbar-fns .navbar-navigation-fns .navbar-brand {
+  height: 50px;
+}
+body.new-year .navbar-fns .navbar-navigation-fns .navbar-brand > img {
+  height: 98px;
+  margin-top: -35px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZucy1ldmVudC5sZXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFLQSxJQUFJLFVBQ0E7RUFDSSxrQkFBQTs7QUFGUixJQUFJLFVBS0E7RUFDSSxZQUFBO0VBQ0EsbUJBQUE7O0FBUFIsSUFBSSxVQUtBLGNBSUk7RUFDSSxZQUFBOzs7QUFTWixJQUFJLGlCQUNBO0VBQ0ksd0JBQXdCLDhEQUF4QjtFQUNBLDJCQUFBOztBQUhSLElBQUksaUJBQ0EsWUFJSTtFQUNJLGtCQUFBOztBQUVBLElBUlIsaUJBQ0EsWUFJSSxhQUdLO0VBQ0csU0FBUyxFQUFUO0VBQ0Esa0JBQUE7RUFDQSxVQUFBO0VBQ0EsTUFBQTtFQUNBLFlBQUE7RUFDQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLGdCQUFnQixpRUFBaEI7O0FBR0osSUFuQlIsaUJBQ0EsWUFJSSxhQWNLO0VBQ0csU0FBUyxFQUFUO0VBQ0Esa0JBQUE7RUFDQSxVQUFBO0VBQ0EsTUFBQTtFQUNBLGFBQUE7RUFDQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLGdCQUFnQixpRUFBaEI7O0FBM0JoQixJQUFJLGlCQUNBLFlBOEJJO0VBQ0ksa0JBQUE7RUFDQSxVQUFBOztBQWpDWixJQUFJLGlCQUNBLFlBbUNJO0VBQ0ksa0JBQUE7RUFDQSxVQUFBOztBQXRDWixJQUFJLGlCQUNBLFlBd0NJO0VBQ0ksZ0JBQWdCLGdFQUFoQjtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxZQUFBO0VBQ0EsV0FBQTtFQUNBLFVBQUE7O0FBRUEsSUFsRFIsaUJBQ0EsWUF3Q0ksaUJBU0s7RUFDRyx1QkFBQTtFQUNBLFdBQUE7O0FBR0osSUF2RFIsaUJBQ0EsWUF3Q0ksaUJBY0s7RUFDRyx1QkFBQTtFQUNBLHNCQUFBOztBQUdKLElBNURSLGlCQUNBLFlBd0NJLGlCQW1CSztFQUNHLHVCQUFBO0VBQ0EsWUFBQTtFQUNBLHFCQUFBOztBQUdKLElBbEVSLGlCQUNBLFlBd0NJLGlCQXlCSztFQUNHLHVCQUFBO0VBQ0EsYUFBQTtFQUNBLHFCQUFBOzs7QUFVaEIsSUFBSSxTQUNBLFlBQ0ksdUJBQ0k7RUFDSSxZQUFBOztBQUpoQixJQUFJLFNBQ0EsWUFDSSx1QkFDSSxjQUdJO0VBQ0ksWUFBQTtFQUNBLGlCQUFBIiwiZmlsZSI6InVuZGVmaW5lZCJ9 */
