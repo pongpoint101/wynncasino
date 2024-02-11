@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="deposit_icon" data-name="deposit icon" transform="translate(-696 -177)">
+    <circle id="Ellipse_28" data-name="Ellipse 28" cx="30" cy="30" r="30" transform="translate(696 177)" fill="#fff"/>
+    <path id="Icon_material-attach-money" data-name="Icon material-attach-money" d="M17.41,15.931c-3.285-.854-4.341-1.736-4.341-3.111,0-1.577,1.461-2.677,3.907-2.677,2.576,0,3.531,1.23,3.617,3.039h3.2a5.768,5.768,0,0,0-4.645-5.513V4.5H14.8V7.626C12,8.233,9.74,10.056,9.74,12.849c0,3.343,2.764,5.007,6.8,5.976,3.617.868,4.341,2.142,4.341,3.487,0,1-.709,2.59-3.907,2.59-2.981,0-4.153-1.331-4.312-3.039H9.48c.174,3.169,2.547,4.949,5.325,5.542v3.14h4.341V27.435c2.822-.535,5.064-2.17,5.064-5.137C24.21,18.189,20.694,16.785,17.41,15.931Z" transform="translate(708.691 194.454)" fill="#016697"/>
+    <path id="Icon_ionic-md-arrow-dropup" data-name="Icon ionic-md-arrow-dropup" d="M9,22.5l9-9,9,9Z" transform="translate(707.536 170.136)" fill="#016697"/>
+  </g>
+</svg>

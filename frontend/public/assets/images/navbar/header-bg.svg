@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="120" viewBox="0 0 1920 120">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6f6f6f"/>
+      <stop offset="0.059" stop-color="#0b2032"/>
+      <stop offset="0.857" stop-color="#00172a"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="NAV_HEADER" data-name="NAV HEADER" transform="translate(75 -13)">
+    <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(-75 13)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="1920" height="120" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1919" height="119" fill="none"/>
+    </g>
+    <g id="MENU" transform="translate(674 44)">
+      <text id="หน้าแรก" transform="translate(0 26)" fill="#fff" font-size="24" font-family="Kanit-Regular, Kanit"><tspan x="0" y="0">หน้าแรก</tspan></text> 
+      <text id="โปรโมชั่น" transform="translate(243 26)" fill="#fff" font-size="24" font-family="Kanit-Regular, Kanit"><tspan x="0" y="0">โปรโมชั่น</tspan></text>
+      <text id="บทความ" transform="translate(358 26)" fill="#fff" font-size="24" font-family="Kanit-Regular, Kanit"><tspan x="0" y="0">บทความ</tspan></text>
+      <text id="แนะนำเพื่อน" transform="translate(469 26)" fill="#fff" font-size="24" font-family="Kanit-Regular, Kanit"><tspan x="0" y="0">แนะนำเพื่อน</tspan></text>
+      <text id="ติดต่อเรา" transform="translate(612 26)" fill="#fff" font-size="24" font-family="Kanit-Regular, Kanit"><tspan x="0" y="0">ติดต่อเรา</tspan></text>
+      <text id="HOME" transform="translate(18 53)" fill="#fff" font-size="16" font-family="Kanit-Regular, Kanit"><tspan x="0" y="0">HOME</tspan></text> 
+      <text id="PROMOTION" transform="translate(244 53)" fill="#fff" font-size="16" font-family="Kanit-Regular, Kanit"><tspan x="0" y="0">PROMOTION</tspan></text>
+      <text id="BLOG" transform="translate(380 53)" fill="#fff" font-size="16" font-family="Kanit-Regular, Kanit"><tspan x="0" y="0">BLOG</tspan></text>
+      <text id="INVITE_FRIEND" data-name="INVITE FRIEND" transform="translate(475 53)" fill="#fff" font-size="16" font-family="Kanit-Regular, Kanit"><tspan x="0" y="0">INVITE FRIEND</tspan></text>
+      <text id="CONTACT_US" data-name="CONTACT US" transform="translate(612 53)" fill="#fff" font-size="16" font-family="Kanit-Regular, Kanit"><tspan x="0" y="0">CONTACT US</tspan></text>
+    </g>
+  </g>
+</svg>

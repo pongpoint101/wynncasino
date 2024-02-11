@@ -1,0 +1,466 @@
+    /* Top Section Style================== */
+    
+    .top-section {
+        height: 720px;
+        padding-top: 80px;
+        background-image: url('../images/home/BG-top.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    .banner-group {
+        max-width: 1160px;
+        width: 95%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .mobile-ads {
+        width: 55%;
+        height: auto;
+    }
+    
+    .banner-text-column {
+        padding-left: 30px;
+        width: 45%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .welcome>h2 {
+        margin-bottom: 0;
+        text-align: left;
+        font: normal normal normal 90px/80px Kanit;
+        letter-spacing: 0px;
+        color: var(--white-text-color);
+        text-shadow: var(--blue-text-shadow-379AFC);
+    }
+    
+    .welcome>p {
+        margin-bottom: 0;
+        text-align: left;
+        font: normal normal normal 30px/30px Kanit;
+        letter-spacing: 0px;
+        color: var(--white-text-color);
+        text-shadow: var(--blue-text-shadow-379AFC);
+    }
+    
+    .casino>h1 {
+        margin-bottom: 0;
+        text-align: left;
+        font: italic normal normal 120px/100px Kanit;
+        letter-spacing: 0px;
+        color: var(--theme-text-color);
+        text-shadow: var(--blue-text-shadow-4D9EF8);
+    }
+    
+    .casino>p {
+        margin-bottom: 0;
+        text-align: left;
+        font: italic normal normal 30px/30px Kanit;
+        letter-spacing: 0px;
+        color: var(--theme-text-color);
+        text-shadow: var(--blue-text-shadow-4D9EF8);
+    }
+    
+    .register-btn-banner,
+    .register-btn-banner:hover {
+        text-decoration: none;
+        text-align: center;
+        font: var(--button-text-xlg);
+        letter-spacing: 0px;
+        width: 150px;
+        height: var(--button-height-lg);
+        border: var(--blue-btn-border);
+        border-radius: 29px;
+        color: var(--white-text-color);
+        text-shadow: var(--blue-text-shadow-379AFC);
+        background: var(--blue-btn-bg);
+        box-shadow: var(--blue-box-shadow);
+    }
+    
+    .service-icons {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .service-icons>img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .casino-sm>h1 {
+        margin-bottom: 0;
+        text-align: left;
+        font: italic normal normal 37px/37px Kanit;
+        letter-spacing: 0px;
+        color: var(--theme-text-color);
+        text-shadow: var(--blue-text-shadow-4D9EF8);
+    }
+    
+    @media (max-width: 1024px) {
+        .top-section {
+            height: auto;
+        }
+    }
+    
+    @media (max-width: 821px) {
+        .welcome>h2 {
+            font: normal normal normal 70px/60px Kanit;
+        }
+        .welcome>p {
+            font: normal normal normal 20px/20px Kanit;
+        }
+        .casino>h1 {
+            font: italic normal normal 80px/70px Kanit;
+        }
+        .casino>p {
+            font: italic normal normal 20px/20px Kanit;
+        }
+        .service-icons>img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+    
+    @media (max-width:576px) {
+        .banner-group {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .mobile-ads {
+            margin-top: -40px;
+            width: 90%;
+            height: auto;
+        }
+        .banner-text-column {
+            padding-left: 0px;
+            width: 80%;
+            height: auto;
+        }
+        .welcome>h2 {
+            text-align: center;
+            font: normal normal normal 60px/50px Kanit;
+        }
+        .welcome>p {
+            text-align: center;
+            font: normal normal normal 17px/20px Kanit;
+        }
+        .casino-sm>h1 {
+            text-align: center;
+        }
+        .service-icons {
+            justify-content: center;
+        }
+    }
+    /* Game taps Section Style================== */
+    
+    .game-tap-section {
+        height: auto;
+        background-image: url(https://yed247.com/demo/images/home/bg_tran.png);
+        background-repeat: repeat;
+        background-position: center center;
+        background-size: cover;
+        padding-bottom: 40px;
+    }
+    
+    .tab {
+        overflow: hidden;
+        width: 95%;
+        max-width: 1160px;
+        height: auto;
+        min-height: 86px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .tab button {
+        cursor: default;
+        transition: 0.3s;
+        width: 232px;
+        height: 86px;
+        box-shadow: var(--blue-box-shadow);
+        border: var(--border-thick);
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* gap: 10px; */
+        background-color: black;
+        margin-top: 10px;
+    }
+    
+    .tablinks h3 {
+        width: 100;
+        margin: 0;
+        text-align: center;
+        font: normal normal normal 28px/32px Kanit;
+        letter-spacing: 0px;
+        color: var(--white-text-color);
+        text-shadow: var(--blue-text-shadow-299FF5);
+    }
+    
+    .tablinks h4 {
+        margin: 0;
+        text-align: center;
+        font: normal normal normal 16px/16px Kanit;
+        letter-spacing: 0px;
+        color: var(--white-text-color);
+        text-shadow: var(--blue-text-shadow-299FF5);
+    }
+    
+    .tablinks img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .tabcontent {
+        margin-top: -43px;
+        display: none;
+        width: 95%;
+        max-width: 1160px;
+        box-shadow: var(--blue-box-shadow);
+        border: var(--border-main);
+        border-radius: 20px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+        height: auto;
+        /* min-height: 650px; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: black;
+    }
+    
+    .tabcontent img {
+        width: 220px;
+        height: auto;
+        margin-bottom: 5px;
+    }
+    
+    @media (max-width:576px) {
+        .tab button {
+            width: 139px;
+            height: 52px;
+            gap: 5px;
+            border: var(--border-main);
+        }
+        .tablinks h3 {
+            font: normal normal normal 16px/24px Kanit;
+        }
+        .tablinks h4 {
+            font: normal normal normal 8px/12px Kanit;
+        }
+        .tablinks img {
+            width: 48px;
+            height: 48px;
+        }
+        .tabcontent img {
+            width: 137px;
+        }
+        .tabcontent {
+            margin-top: -26px;
+            /* max-width: 350px; */
+        }
+    }
+    /* Promotion Section Style================== */
+    
+    .promotion-section {
+        padding-top: 20px;
+        height: auto;
+        min-height: 547px;
+        background-image: url(https://yed247.com/demo/images/home/bg_tran.png);
+        background-repeat: no-repeat;
+        /* background-position: center center; */
+        background-size: cover;
+    }
+    
+    .promotion-group {
+        max-width: 1160px;
+        width: 90%;
+        height: auto;
+    }
+    
+    .promotion-group>h2 {
+        margin-bottom: 50px;
+        text-align: center;
+        font: normal normal 300 65px/70px Kanit;
+        letter-spacing: 0px;
+        color: white;
+        text-shadow: var(--blue-text-shadow-299FF5);
+    }
+    
+    .mySlides {
+        width: 33%;
+        max-width: 330px;
+        min-width: 150px;
+        /* display: none */
+    }
+    
+    .mySlides>img {
+        width: 100%;
+        height: auto;
+    }
+    /* Slideshow container */
+    
+    .slideshow-container {
+        /* width: 100%; */
+        /* position: relative; */
+        /* display: flex; */
+        /* justify-content: space-around; */
+    }
+    
+    .slideshow-container {
+        width: 100%;
+        position: unset;
+        display: block;
+        justify-content: unset;
+        text-align: center;
+    }
+    /* Next & previous buttons */
+    /* The dots/bullets/indicators */
+    
+    .dot {
+        display: none;
+        cursor: pointer;
+        height: 5px;
+        width: 80px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 3px;
+        /* display: inline-block; */
+        transition: background-color 0.6s ease;
+    }
+    
+    .active,
+    .dot:hover {
+        background-color: #717171;
+    }
+    /* Fading animation */
+    
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @media (max-width:576px) {
+        .promotion-group>h2 {
+            font: normal normal 300 60px/63px Kanit;
+            margin-bottom: 30px;
+        }
+        .dot {
+            display: inline-block;
+        }
+        .mySlides {
+            width: 80%;
+        }
+        .mySlides:not(:nth-of-type(1)) {
+            display: none;
+        }
+    }
+    
+    #all-games a {
+        cursor: default;
+    }
+    
+    section.top-section {
+        background: #00000000;
+    }
+    
+    #all-games a img {
+        background-color: #070707;
+        border-radius: 1rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    #all-games a img:hover {
+        background-color: #3e9cf6;
+        transform: scale(1.1);
+        transition: all .2s ease-in-out;
+    }
+    
+    body {
+        background-image: url(https://yed247.com/demo/images/home/BG2.png?v1.1);
+        background-repeat: repeat;
+        background-position: center center;
+    }
+    
+    .main-section {
+        width: 100%;
+        padding-top: 130px;
+        padding-bottom: 50px;
+        height: auto;
+        background-color: #00000000;
+    }
+    
+    .register-btn-banner,
+    .register-btn-banner:hover {
+        text-decoration: none;
+        text-align: center;
+        font: var(--button-text-xlg);
+        letter-spacing: 0px;
+        width: 250px;
+        height: var(--button-height-lg);
+        border: var(--blue-btn-border);
+        border-radius: 29px;
+        color: var(--white-text-color);
+        text-shadow: var(--blue-text-shadow-379AFC);
+        background: var(--blue-btn-bg);
+        box-shadow: var(--blue-box-shadow);
+    }
+    
+     :root {
+        /* --nav-text-xlg: normal normal normal 18px/30px Kanit !important; */
+        --nav-text-lg: normal normal normal 16px/35px Kanit !important;
+        --dark-btn-bg: transparent !important;
+    }
+    
+    .blue-box {
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    button[type=submit] {
+        width: 90%;
+        align-self: center;
+        border: 2px solid #83c7ff;
+    }
+    
+    button[type=submit]:hover {
+        transform: scale(1.1);
+        transition: all .2s ease-in-out;
+    }
+    
+    .regisTopmenu {
+        animation: blinkBtn 0.5s infinite;
+    }
+    
+    .slideshow-container div.mySlides {
+        display: -webkit-inline-box;
+        margin: 10px;
+    }
+    
+    .card {
+        border: 0px;
+        background: linear-gradient(178deg, #1b232f, #173052);
+        color: white;
+    }

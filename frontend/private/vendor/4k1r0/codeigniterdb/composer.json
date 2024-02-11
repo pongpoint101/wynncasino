@@ -1,0 +1,29 @@
+{
+  "name": "4k1r0/codeigniterdb",
+  "description": "Use the database library separately from CodeIgniter 3 (fork from evolution/codeigniterdb)",
+  "keywords": [
+    "database",
+    "codeigniter",
+    "mysql",
+    "pdo",
+    "mysqli"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/evolutionscript/codeigniter-database-standalone",
+  "authors": [
+    {
+      "name": "EvolutionScript",
+      "homepage": "http://www.evolutionscript.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Evolution\\CodeIgniterDB\\": "src/"
+    },
+	"files": ["src/DB.php"]
+  }
+}

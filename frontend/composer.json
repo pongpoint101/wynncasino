@@ -1,0 +1,20 @@
+{
+    "name": "devni/farmer",
+    "authors": [
+        {
+            "name": "dev-pong",
+            "email": "test@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "private/vendor/"
+    },
+    "require": { 
+	 "volnix/csrf": "~1.2",
+         "illuminate/database": "^7.2", 
+         "rundiz/thai-date": "^2.0",
+        "guzzlehttp/guzzle": "^7.4",
+        "anovsiradj/ci3db": "^1.0",
+        "mobiledetect/mobiledetectlib": "^2.8" 
+    }
+}
